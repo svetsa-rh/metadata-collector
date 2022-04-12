@@ -11,7 +11,7 @@ UUID=`uuidgen`
 LABEL_NAME=""
 LABEL_VALUE=""
 ES_SSL=False
-IMAGE="quay.io/cloud-bulldozer/backpack:latest"
+IMAGE="quay.io/svetsa/backpack:multiarch"
 
 while getopts s:n:xa:t:c:u:l:v:i:h flag
 do
